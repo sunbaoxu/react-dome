@@ -1,0 +1,56 @@
+.react-wrap{
+  width: 100%;
+  min-width: 1000px;
+  background: #28557e;
+  .fixed-box{
+    position: fixed;
+    overflow: hidden;
+    left:1000px;
+    top:50%;
+    transform: translate(0,-50%);
+    img{
+      width: 380px;
+    }
+  }
+  .react-header{
+    background: no-repeat left top;
+    height: 316px;
+    .title{
+      padding-top: 80px;
+      color:#28557e;
+      font-size: 46px;
+      font-weight: bold;
+      line-height: 100px;
+      width: 948px;
+      text-align: center;
+    }
+    p{
+      width: 948px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 100px;
+      color:#28557e;
+    }
+  }
+  .react-main{
+    height: 1000px;
+    background: repeat-y left top;
+    padding-left: 100px;
+  }
+  .list-box{
+    padding-bottom: 10px;
+    &>.title{
+      font-size: 22px;
+      padding-bottom: 10px;
+    }
+    &>.text{
+      font-size: 18px;
+      padding-bottom: 4px;
+    }
+    .box{
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}
