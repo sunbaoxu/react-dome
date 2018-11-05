@@ -31,23 +31,6 @@ class App extends React.Component {
                 AsyncLoader( () => import('@/views/react/index'),'react')
               }
           />
-          {/* 登录 */}
-          <Route
-              exact
-              path="/login"
-              component={
-                AsyncLoader( () => import('@/views/login'),'login')
-              }
-          />
-          {/* 404页面 */}
-          <Route
-              exact
-              path="/404"
-              component={
-                AsyncLoader( () => import('@/views/404'),'404')
-              }
-          />
-          {/* 错误路由 404  */}
           
           <Redirect  to={{pathname: '/404'}} />
         </Switch>
