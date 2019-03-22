@@ -34,7 +34,7 @@ const getPublicUrl = appPackageJson =>
 function getServedPath(appPackageJson) {
   const publicUrl = getPublicUrl(appPackageJson);
   const servedUrl =
-    envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : '/course/');
+    envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : '/h5-bang/');
   return ensureSlash(servedUrl, true);
 }
 

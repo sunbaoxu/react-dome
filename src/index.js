@@ -9,7 +9,7 @@ import App from '$App';
 
 
 ReactDOM.render(
-    <Router basename="/course">
+    <Router basename="/h5-bang">
       <App />
     </Router>
   , 

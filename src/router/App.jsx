@@ -8,7 +8,6 @@ import {
 import './App.scss';
 import AsyncLoader from './AsyncLoader'; 
 
-
 class App extends React.Component {
  
   render() {
@@ -32,7 +31,7 @@ class App extends React.Component {
               }
           />
           
-          <Redirect  to={{pathname: '/404'}} />
+          <Redirect  to={{pathname: '/404'}}  />
         </Switch>
       </div>
     );
